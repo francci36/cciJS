@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 60px;
+    background-color: rgba(0, 128, 0, 0.103);
+    width: 90%
+  }
+  .logo-header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .tableau1 .haut h1, h2, h3, .petite-police{
+    text-align: center;
+    color: rgba(0, 0, 255, 0.774);
+  }
+  .tableau1 .haut h1{
+    background-color: rgba(0, 100, 0, 0.459);
+  
+  }
+  .tableau1{
+    background-color: rgba(100, 148, 237, 0.281);
+    border: solid rgba(203, 221, 85, 0.815);
+  }
+  fieldset{
+    border: solid rgba(0, 0, 255, 0.651);
+    
+  }
+  legend{
+    font-size: larger;
+    font-weight: bold;
+  }
+  .tableau2{
+    border: solid rgba(203, 221, 85, 0.815) ;
+    background-color:rgba(100, 148, 237, 0.281);
+    border: solid ;
+  }
+  .tableau2 .table .thead h1{
+    text-align: center;
+  }
+  fieldset label{
+    margin: 3px;
+    padding: 3px;
+  }
+  .pied{
+    background-color: rgba(95, 158, 160, 0.432);
+    padding: 5px;
+  
+  }
+  input{
+    padding: 4px;
+  }
+  @media screen {
+    width: 600px;
+  
+    
+  }
