@@ -51,17 +51,17 @@
                 </div>
                 <div class="verif-form">
                     <h2>Situation familiale</h2>
-                    <label for="permis de conduire">Titulaire du permis B</label>
+                    <label for="permis de conduire">Titulaire du permis B :</label><br>
                     <input type="radio" name="permis-de-conduire" value="oui" checked /><label>oui</label>
                     <input type="radio" name="permis-de-conduire" value="non" /> <label>non</label>
                     <input type="radio" name="permis-de-conduire" value="en cours" /> <label>en cours</label><br>
-                    <label for="situation familiale">Situation familiale</label>
+                    <label for="situation familiale">Situation familiale :</label><br>
                     <input type="radio" name="situation-familiale" value="celibataire" /> <label>celibataire</label>
                     <input type="radio" name="situation-familiale" value="vie maritale" /> <label>Vie maritale</label>
                     <input type="radio" name="situation-familiale" value="pacs" /> <label>Pacs</label>
                     <input type="radio" name="situation-familiale" value="marié.e" /> <label>Marié.e</label>
                     <input type="radio" name="situation-familiale" value="veuf.ve" /> <label>Veuf.ve</label>
-                    <input type="radio" name="situation-familiale" value="divorcé.e" /> <label>Divorcé.e</label> <br>
+                    <input type="radio" name="situation-familiale" value="divorcé.e" /> <label class="retour-ligne">Divorcé.e</label> 
                     <label for="nombre d'enfants">Nombre d'enfants</label>
                     <input type='text' id="nombre-d'enfants" name="nombre-d'enfants" required>
                     <label for="dont">dont à charge</label>
@@ -75,10 +75,10 @@
                     <input type='text' id='code postale' name='code postale' required>
                     <label for="ville">Ville</label>
                     <input type='text' id='ville' name='ville' required>
-                    <label for="travailleur.se handicape.e">Êtes-vous reconnu.u Travailleur.se Handicapé.e</label>
-                    <input type="radio" name="travailleur.se handicape.e" value="oui" /> <label>oui (joindre justificatif)</label>
-                    <input type="radio" name="travailleur.se handicape.e" value="non" /> <label>non</label>
-                    <label for="n° de securite sociale">N° de Sécurité Sociale</label>
+                    <label for="travailleur.se handicape.e">Êtes-vous reconnu.e Travailleur.se Handicapé.e ?</label><br>
+                    <input type="radio" name="travailleur.se handicape.e" value="oui" /> <label>oui (joindre justificatif)</label><br>
+                    <input type="radio" name="travailleur.se handicape.e" value="non" /> <label>non</label><br>
+                    <label for="n° de securite sociale">N° de Sécurité Sociale:</label>
                     <input type='numero' id='n° de securite sociale' name='n° de securite sociale' required pattern="0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="">
                 </div>
                 </div>
@@ -88,7 +88,7 @@
                     <label for="civilité">Mme</label>
                     <input type="radio" name="civilite" id="civilite" />
                     <label for="civilité">M</label>
-                    <input type="radio" name="civilite" id="civilite" />
+                    <input type="radio" name="civilite" id="civilite" /><br>
                     <label for="civilité">NOM d’usage :</label>
                     <input type="text" name="civilite" id="civilite" />
                     <label for="civilité">Prénom :</label>
@@ -125,41 +125,41 @@
                     <h2>Formation initiale</h2>
                     <h3>niveau de formation</h3>
                     <input type="checkbox" id="c1" name="c1">
-                    <label for="c1">1 et 2 Fin de scolarité obligatoire</label>
+                    <label for="c1">1 et 2 Fin de scolarité obligatoire</label><br>
                     <input type="checkbox" id="c2" name="c2">
-                    <label for="c2">3 Brevet</label>
+                    <label for="c2">3 Brevet</label><br>
                     <input type="checkbox" id="c3" name="c3">
-                    <label for="c3">3 CAP, BEP</label>
+                    <label for="c3">3 CAP, BEP</label><br>
                     <input type="checkbox" id="c4" name="c4">
-                    <label for="c4">4 Baccalauréat</label>
+                    <label for="c4">4 Baccalauréat</label><br>
                     <input type="checkbox" id="c5" name="c5">
-                    <label for="c5">5 DEUG, BTS, DUT, DEUST</label>
+                    <label for="c5">5 DEUG, BTS, DUT, DEUST</label><br>
                     <input type="checkbox" id="c6" name="c6">
-                    <label for="c6">6 Licence, Licence professionnelle</label>
+                    <label for="c6">6 Licence, Licence professionnelle</label><br>
                     <input type="checkbox" id="c6" name="c6">
-                    <label for="c6">6 Maîtrise, Master 1</label>
+                    <label for="c6">6 Maîtrise, Master 1</label><br>
                     <input type="checkbox" id="c7" name="c7">
                     <label for="c7">7 Master, Diplôme d’études approfondies,
                     Diplôme d’études supérieures
-                    spécialisées,</label>
+                    spécialisées,</label><br>
                     <input type="checkbox" id="c8" name="c8">
                     <label for="c8">Diplôme d’ingénieur
                     8 Doctorat, Habilitation à diriger des
-                    recherches</label>
+                    recherches</label><br>
                 </div>
                 <div class="verif-form">
                     <h2>Avez-vous suivi</h2>
                     <input type="checkbox" id="c9" name="c9">
-                    <label for="c9">de Mobilisation</label>
+                    <label for="c9">de Mobilisation</label><br>
                     <input type="checkbox" id="c10" name="c10">
-                    <label for="c10">de Qualification</label>
+                    <label for="c10">de Qualification</label><br>
                     <input type="checkbox" id="c11" name="c11">
-                    <label for="c11">d’un Bilan deCompétences</label>
+                    <label for="c11">d’un Bilan deCompétences</label><br>
                 </div>
                 <div class="verif-form">
                     <h2>connaissances en informatique</h2>
                     <input type="radio" id="oui" name="connaissances" checked>
-                    <label for="c12">Oui</label>
+                    <label for="c12">Oui</label><br>
                     <input type="radio" id="non" name="connaissances">
                     <label for="c13">Non</label>
                 </div>
@@ -198,13 +198,13 @@
                     <label for="dates">du</label>
                     <input type='date' id='dates' name='dates' required>
                     <label for="dates">au</label>
-                    <input type='date' id='date' name='dates' required>
+                    <input type='date' id='date' name='dates' required><br>
                     <label for="dates">du</label>
                     <input type='date' id='dates' name='dates' required>
                     <label for="dates">au</label>
-                    <input type='date' id='date' name='dates' required>
+                    <input type='date' id='date' name='dates' required><br>
                                     
-                    <label for="formation">Nom de l’Organisme</label>
+                    <label for="formation">Nom de l’Organisme :</label>
                     <input type='text' id='date' name='dates' required>
                     <input type='text' id='date' name='dates' required>
                     <label for="dates">Nom de la formation</label>
@@ -222,7 +222,7 @@
                     <input type="checkbox" id="c1" name="c1">
                     <label for="c1">Vous n’avez jamais travaillé</label>
                     <input type="checkbox" id="c2" name="c2">
-                    <label for="c2">Vous avez déjà travaillé</label>
+                    <label for="c2">Vous avez déjà travaillé</label><br>
                     <!--Ci-dessous ceux sont des checkbox type radis avec choix oui et non-->
                     <label for="inscrit">Vous êtes-vous inscrit(e) à Pôle Emploi :</label>
                     <input type="radio" id="oui" name="inscrit" checked>
@@ -238,12 +238,12 @@
                     <input type="radio" id="oui" name="demandeur" checked>
                     <label for="oui"> > 1 an</label>
                     <input type="radio" id="oui" name="demandeur" checked>
-                    <label for="oui"> > 3 ans</label>
-                    <label for="identifiant">N° identifiant Pôle emploi</label>
+                    <label for="oui"> > 3 ans</label><br>
+                    <label for="identifiant">N° identifiant Pôle emploi :</label>
                     <input type="text" id="identifiant" name="identifiant">
                     <label for="identifiant">Date de la dernière inscription à Pôle Emploi :</label>
-                    <input type="date" id="identifiant" name="identifiant" required pattern="[dd] [mm] [aaaa]">
-                    <label for="angence">Agence Pôle Emploi</label>
+                    <input type="date" id="identifiant" name="identifiant" required pattern="[dd] [mm] [aaaa]"><br>
+                    <label for="angence">Agence Pôle Emploi:</label>
                     <input type="text" id="agence" name="agence">    
                     <label for="adresse">Adresse</label>
                     <input type="text" id="adresse" name="adresse">
@@ -260,8 +260,6 @@
                     <input type='text' id='nom' name='nom' required>
                     <label for="prenom">Prénom</label>
                     <input type='text' id='prenom' name='prenom' required>
-                    <label for="e-mail">Dernièrement, avez-vous suivi un dispositif d'insertion professionnelle avec Pôle Emploi ? </label>
-                    <input type='email' id='e-mail' name='e-mail' required>
                     <label for="inscrit">Dernièrement, avez-vous suivi un dispositif d'insertion professionnelle avec Pôle Emploi ?</label>
                     <input type="radio" id="oui" name="inscrit" checked>
                     <label for="oui">oui</label>
@@ -282,27 +280,27 @@
                     <label for="precisez">au</label>
                     <input type='date' id='precisez' name='precisez' required><br>
                     <label for="sansalloc">Vous ne bénéficiez pas de l'allocation chômage, motif :</label>
-                    <input type='tex' id='sansalloc' name='sansalloc' required>
+                    <input type='tex' id='sansalloc' name='sansalloc' required><br>
                     <label for="autre">Autre situation</label>
-                    <input type="checkbox" id="autre" name="autre" checked>
+                    <input type="checkbox" id="autre" name="autre" checked><br>
                     <label for="autre">Salarié(e) en activité</label>
                     <input type="radio" id="autre" name="autre">
                     <label for="allocation">CDD</label>
                     <input type="radio" id="autre" name="autre">
-                    <label for="allocation">CDI</label>
+                    <label for="allocation">CDI</label><br>
                     <label for="employeur">Adresse complète de l’employeur :</label>
                     <input type="text" id="employeur" name="employeur">
                     <label for="employeur">Votre fonction :</label>
                     <input type="text" id="employeur" name="employeur">
                     <label for="employeur">Date de début de contrat :</label>
-                    <input type="date" id="employeur" name="employeur">
+                    <input type="date" id="employeur" name="employeur"><br>
                     <label for="employeur">Congé Individuel de Formation</label>
                     <input type="checkbox" id="employeur" name="employeur">
                     <label for="employeur">En cours d’études</label>
-                    <input type="checkbox" id="employeur" name="employeur">
+                    <input type="checkbox" id="employeur" name="employeur"><br>
                     <label for="ancien.activite">ACTIVITE PROFESSIONNELLE EXERCÉE ANTÉRIEUREMENT (Les périodes de stage ne sont pas assimilées à une expérience
                             professionnelle)</label>
-                    <label for="ancien.activite"> < à 1 an</label>
+                    <label for="ancien.activite"> &lt; à 1 an</label>
                     <input type="checkbox" id="ancien.activite" name="ancien.activite">
                     <label for="ancien.activite"> 1 à 3 ans</label>
                     <input type="checkbox" id="ancien.activite" name="ancien.activite">
@@ -381,13 +379,13 @@
                     <label for="plus.info">du</label>
                     <input type='date' id='domaine.pro' name='plus.info' required>
                     <label for="plus.info">au</label>
-                    <input type='date' id='domaine.pro' name='plus.info' required>
+                    <input type='date' id='domaine.pro' name='plus.info' required><br>
                     <label for="plus.info">Licenciement</label>
                     <input type='checkbox' id='domaine.pro' name='plus.info' required>
                     <label for="plus.info">Fin de Contrat</label>
                     <input type='checkbox' id='domaine.pro' name='plus.info' required>
                     <label for="plus.info">Départ volontaire</label>
-                    <input type='checkbox' id='domaine.pro' name='plus.info' required>
+                    <input type='checkbox' id='domaine.pro' name='plus.info' required><br>
                     <label for="plus.info">Nom de votre entreprise :</label>
                     <input type='text' id='domaine.pro' name='plus.info' required>
                     <label for="plus.info">Adresse :</label>

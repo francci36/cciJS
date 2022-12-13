@@ -25,7 +25,7 @@ img{
 }
 
 .content{
-    background-color: rgba(122, 127, 136, 0.281);
+    background-color: rgba(43, 58, 87, 0.281);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba (0,0,0,0.3);
     width: 1000px;
@@ -44,7 +44,8 @@ img{
     display: inline-block;
     margin-bottom: 5px;
 }
-.verif-form input, textarea{
+.verif-form input[type="text"],
+ textarea{
 
     border: 0.5px solid #f0f0f0;
     display: block;
@@ -58,6 +59,10 @@ input{
     padding-bottom: 10px;
     border-radius: 5px;
 
+}
+label.retour-ligne:after{
+    content: '\A \A0' ;
+    white-space: pre;
 }
 
 h2, h3{
